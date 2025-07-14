@@ -12,7 +12,7 @@ Tests are run in a separate environment to avoid conflicts and PoC for building 
 - **Create a virtual environment**
 
 ```bash
-conda env create -f tests/environment.yml 
+conda env create -f environment.yml 
 ```
 
 
