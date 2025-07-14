@@ -3,7 +3,7 @@ This repository contains the components of dynamic pricing engine, leveraging LL
 
 # Architecture
 
-![Architecture](.images/architecture.jpg)
+![Architecture](images/architecture.jpg)
 
 # Components
 
