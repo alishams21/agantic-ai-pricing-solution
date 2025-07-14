@@ -27,8 +27,13 @@ conda activate llms
 ```bash
 jupyter lab
 ```
+## test folder include files for
 
-# Components
+1- curation of data
+2- training of random forest model
+3- finetuning of openai model
+
+
 
 ## LLM Agent
 
