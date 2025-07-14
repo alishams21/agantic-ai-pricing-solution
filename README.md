@@ -35,6 +35,8 @@ jupyter lab
 
 3- finetuning of openai model (using openai api)
 
+4- finetuning Llama 3 model (QLoRA , 4bit, r(for rank) , Alpha(for lora a, lora b), Target (for attention head "q_proj", "v_proj", "k_proj", "o_proj") , Dropout))
+
 
 
 ## LLM Agent
