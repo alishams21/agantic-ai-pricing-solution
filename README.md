@@ -5,7 +5,7 @@ This repository contains the components of dynamic pricing engine, leveraging LL
 
 ![Architecture](images/architecture.jpg)
 
-# Test Environment
+# Test and PoC Environment
 
 Tests are run in a separate environment to avoid conflicts and PoC for building the components done in Jupyter Notebook.
 
