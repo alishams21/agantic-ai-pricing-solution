@@ -36,12 +36,12 @@ jupyter lab
 3- finetuning of openai model (using openai api)
 
 4- finetuning Llama 3 model:
-    - QLoRA
-    - Quantization = 4bit
-    - r (for rank) = 16
-    - Alpha (for lora a, lora b) = 32
-    - Target for lora a, lora b (for attention head "q_proj", "v_proj", "k_proj", "o_proj")
-    - Dropout = 0.1
+    * QLoRA
+    * Quantization = 4bit
+    * r (for rank) = 16
+    * Alpha (for lora a, lora b) = 32
+    * Target for lora a, lora b (for attention head "q_proj", "v_proj", "k_proj", "o_proj")
+    * Dropout = 0.1
 
 
 
