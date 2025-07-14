@@ -5,6 +5,29 @@ This repository contains the components of dynamic pricing engine, leveraging LL
 
 ![Architecture](images/architecture.jpg)
 
+# Test Environment
+
+Tests are run in a separate environment to avoid conflicts and PoC for building the components done in Jupyter Notebook.
+
+- **Create a virtual environment**
+
+```bash
+conda env create -f tests/environment.yml 
+```
+
+
+- **Activate the virtual environment**
+
+```bash
+conda activate llms
+```
+
+- lunch jupyter lab
+
+```bash
+jupyter lab
+```
+
 # Components
 
 ## LLM Agent
