@@ -29,19 +29,19 @@ jupyter lab
 ```
 ### tests folder includes:
 
-1- curation of data (using huggingface datasets)
+1. curation of data (using huggingface datasets)
 
-2- training of random forest model (using sklearn)
+2. training of random forest model (using sklearn)
 
-3- finetuning of openai model (using openai api)
+3. finetuning of openai model (using openai api)
 
-4- finetuning Llama 3 model:
-    * QLoRA
-    * Quantization = 4bit
-    * r (for rank) = 16
-    * Alpha (for lora a, lora b) = 32
-    * Target for lora a, lora b (for attention head "q_proj", "v_proj", "k_proj", "o_proj")
-    * Dropout = 0.1
+4. finetuning Llama 3 model:
+    - QLoRA
+    - Quantization = 4bit
+    - r (for rank) = 16
+    - Alpha (for lora a, lora b) = 32
+    - Target for lora a, lora b (for attention head "q_proj", "v_proj", "k_proj", "o_proj")
+    - Dropout = 0.1
 
 
 
