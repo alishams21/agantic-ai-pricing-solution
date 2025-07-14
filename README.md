@@ -27,7 +27,7 @@ conda activate llms
 ```bash
 jupyter lab
 ```
-### Test folder includes:
+### tests folder includes:
 
 1- curation of data (using huggingface datasets)
 
