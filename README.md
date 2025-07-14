@@ -29,9 +29,11 @@ jupyter lab
 ```
 ## test folder include files for
 
-1- curation of data
-2- training of random forest model
-3- finetuning of openai model
+1- curation of data (using huggingface datasets)
+
+2- training of random forest model (using sklearn)
+
+3- finetuning of openai model (using openai api)
 
 
 
