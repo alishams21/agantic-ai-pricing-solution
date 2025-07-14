@@ -42,7 +42,11 @@ jupyter lab
     - Alpha (for lora a, lora b) = 32
     - Target for lora a, lora b (for attention head "q_proj", "v_proj", "k_proj", "o_proj")
     - Dropout = 0.1
-
+    - epoch = 3
+    - batch size = 8
+    - learning rate = 0.001
+    - gradient accumulation = 1
+    - optimizer = AdamW
 
 
 ## LLM Agent
