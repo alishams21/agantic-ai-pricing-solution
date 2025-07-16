@@ -37,17 +37,27 @@ jupyter lab
 
 4. finetuning Llama 3 model:
     - QLoRA
-    - Quantization = 4bit
-    - r (for rank) = 16
-    - Alpha (for lora a, lora b) = 32
-    - Target for lora a, lora b (for attention head "q_proj", "v_proj", "k_proj", "o_proj")
-    - Dropout = 0.1
-    - epoch = 3
-    - batch size = 8
-    - learning rate = 0.001
-    - gradient accumulation = 1
-    - optimizer = AdamW
+    - QUANTIZATION = 4bit
+    - R (for rank) = 16
+    - ALPHA (for lora a, lora b) = 32
+    - TARGET (for attention head "q_proj", "v_proj", "k_proj", "o_proj")
+    - DROPOUT = 0.1
+    - EPOCHS = 3
+    - BATCH_SIZE = 8
+    - LEARNING_RATE = 0.0001
+    - LEARNING_SCHEDULER_TYPE = cosine
+    - WARMUP_RATIO = 0.03
+    - GRADIENT_ACCUMULATION = 1
+    - OPTIMIZER = paged_adamw_3bit
 
+4. observabiliy:
+    - LOG_TO_WANDB = True # log to wandb
+    - WANDB_PROJECT = "agantic-ai-pricing-solution" # wandb project
+    - WANDB_LOG_MODEL = "checkpoint" # log model to wandb
+    - WANDB_ENTITY = "agantic-ai" # wandb entity
+    - WANDB_NAME = "agantic-ai-pricing-solution" # name of the run
+    - STEPS = 100 # log every 100 steps
+    - SAVE_STEPS = 5000 # save model every 5000 steps
 
 ## LLM Agent
 
