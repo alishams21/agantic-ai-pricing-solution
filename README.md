@@ -31,7 +31,7 @@ jupyter lab
 
 1. curation of data (using huggingface datasets)
 
-2. training of random forest model (using sklearn)
+2. training of random forest model to be used as one of the modelsin ensemble model which will built later (using sklearn)
 
 3. finetuning of openai model (using openai api)
 
