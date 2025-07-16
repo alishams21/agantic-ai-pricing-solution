@@ -48,7 +48,7 @@ jupyter lab
     - LEARNING_SCHEDULER_TYPE = cosine
     - WARMUP_RATIO = 0.03
     - GRADIENT_ACCUMULATION = 1
-    - OPTIMIZER = paged_adamw_3bit
+    - OPTIMIZER = paged_adamw_32bit
 
 4. observabiliy:
     - LOG_TO_WANDB = True # log to wandb
