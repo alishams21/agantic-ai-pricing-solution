@@ -2,7 +2,7 @@ from datetime import datetime
 from tqdm import tqdm
 from datasets import load_dataset
 from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
-from tests.items import Item
+from items import Item
 
 CHUNK_SIZE = 1000
 MIN_PRICE = 0.5
