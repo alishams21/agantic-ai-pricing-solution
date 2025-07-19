@@ -1,10 +1,10 @@
 from typing import Optional, List, Dict
-from price_agents.agent import Agent as BaseAgent
-from price_agents.deals import ScrapedDeal, DealSelection, Deal, Opportunity
-from price_agents.scanner_agent import ScannerAgent
-from price_agents.frontier_agent import FrontierAgent
-from price_agents.specialist_agent import SpecialistAgent
-from price_agents.messaging_agent import MessagingAgent
+from agents.agent import Agent as BaseAgent
+from agents.deals import ScrapedDeal, DealSelection, Deal, Opportunity
+from agents.scanner_agent import ScannerAgent
+from agents.frontier_agent import FrontierAgent
+from agents.specialist_agent import SpecialistAgent
+from agents.messaging_agent import MessagingAgent
 from agents import Agent, Runner, function_tool
 import json
 import asyncio

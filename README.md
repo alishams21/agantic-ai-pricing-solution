@@ -27,7 +27,8 @@ conda activate llms
 ```bash
 jupyter lab
 ```
-### tests folder includes:
+
+# deployment_and_R&D folder includes:
 
 1. curation of data (using huggingface datasets)
 
@@ -59,8 +60,42 @@ jupyter lab
     - STEPS = 100 # log every 100 steps
     - SAVE_STEPS = 5000 # save model every 5000 steps
 
-## LLM Agent
+# LLM Agents
 
-## Data Agent
+1. Specialist Agent: This agent works based on fine-tuned Llama 3 model.
 
-## Pricing Agent
+2. Frontier Agent: This agent works based on RAG (Retrieval-Augmented Generation) with Sentence Transformer and ChromaDB.
+
+3. Random Forest Agent: This agent works based on Random Forest model on top of vectorized ChromaDB using Sentence Transformer.
+
+4. Ensemble Agent: This agent works based on Ensemble of the above agents.
+
+5. Scanner Agent: This agent works based on scanning the web for new products in RSS feeds.
+
+6. Message Agent: This agent works based on sending messages to the user. Platform is pushover.net.
+
+7. Planner Agent: This agent works based on planning the next step based on the current state of the system.
+
+# LLM Framework
+
+1.agent_framework_backend.py: This file contains the backend for the LLM framework.
+
+2.agent_framework_frontend.py: This file contains the frontend for the LLM framework.
+
+
+# Environment variables are stored in .env file:
+
+```bash
+OPENAI_API_KEY
+HF_TOKEN
+PUSHOVER_TOKEN # should be set in pushover.net
+PUSHOVER_USER # should be set in pushover.net
+WANDB_API_KEY # should be set in integration of huggingface and wandb.
+MODAL_SECRET_KEY # should be set in modal.com and copy pased and named as hf_secrect
+```
+
+
+
+
+
+
