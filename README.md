@@ -45,7 +45,7 @@ jupyter lab
     - DROPOUT = 0.1
     - EPOCHS = 3
     - BATCH_SIZE = 8
-    - LEARNING_RATE = 0.0001
+    - LEARNING_RATE = 0.003
     - LEARNING_SCHEDULER_TYPE = cosine
     - WARMUP_RATIO = 0.03
     - GRADIENT_ACCUMULATION = 1
@@ -76,6 +76,7 @@ jupyter lab
 
 7. Planner Agent: This agent works based on planning the next step based on the current state of the system.
 
+
 # LLM Framework
 
 1.agent_framework_backend.py: This file contains the backend for the LLM framework.
@@ -86,8 +87,8 @@ jupyter lab
 # Environment variables are stored in .env file:
 
 ```bash
-OPENAI_API_KEY
-HF_TOKEN
+OPENAI_API_KEY # should be set in openai.com
+HF_TOKEN # should be set in huggingface.co
 PUSHOVER_TOKEN # should be set in pushover.net
 PUSHOVER_USER # should be set in pushover.net
 WANDB_API_KEY # should be set in integration of huggingface and wandb.
